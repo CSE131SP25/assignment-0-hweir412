@@ -2,7 +2,8 @@ package assignment0;
 
 import support.assignment0.RobotMotionAdapter;
 
-public class RobotInstructions  {
+public class RobotInstructions  
+{
 
 	/*
 	 * Below you see a method called "act".
@@ -13,8 +14,9 @@ public class RobotInstructions  {
 	 * For now, please accept that the instructions below cause the support.robot to
 	 * move forward, turn left, or turn right.
 	 */
-	public void act(RobotMotionAdapter robot) {
-		
+	public void act(RobotMotionAdapter robot) 
+	{
+		///test 
 		/**
 		 * Each of the following lines of code executes in turn.  The
 		 * first line causes the support.robot to move forward 60 "pixels".  A pixel is
@@ -30,8 +32,6 @@ public class RobotInstructions  {
 		 * as you desire.
 		 **/
 		robot.forward(60);
-		robot.forward(60);
-		robot.turnLeft(90);
 		robot.turnLeft(90);
 		robot.forward(23);
 		robot.turnRight(90);
